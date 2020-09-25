@@ -1,0 +1,33 @@
+.product {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+img {
+    height: 150px;
+    margin-top: 20px;
+}
+
+.productName {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.productPrice {
+    margin-left: 30px;
+}
+
+button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 75%;
+    color: darkgray;
+    border-color: lightgray;
+    font-size: larger;
+}
+
