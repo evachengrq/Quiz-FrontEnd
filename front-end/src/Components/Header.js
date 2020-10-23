@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Header.css'
 import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
-import Product from './Product';
 import Orders from './Orders';
 import AddProducts from './AddProducts';
+import Products from './Products';
 
 
 class Header extends Component {
@@ -18,7 +18,7 @@ class Header extends Component {
                     </ul>
                 </nav>
                 <Switch>
-                    <Route exact path = "/" component = {Product} />
+                    <Route exact path = "/" component = {Products} />
                     <Route exact path = "/orders" component = {Orders} />
                     <Route exact path = "addProducts" component = {AddProducts} />
                 </Switch>
