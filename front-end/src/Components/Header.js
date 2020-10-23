@@ -20,7 +20,7 @@ class Header extends Component {
                 <Switch>
                     <Route exact path = "/" component = {Products} />
                     <Route exact path = "/orders" component = {Orders} />
-                    <Route exact path = "addProducts" component = {AddProducts} />
+                    <Route exact path = "/addProducts" component = {AddProducts} />
                 </Switch>
             </Router>
         )

@@ -29,7 +29,7 @@ class Orders extends Component {
         <td>{name}</td>
         <td>{price}</td>
         <td>{amount}</td>
-      <th>总价：{total}</th>
+        <th>总价：{total}</th>
       </tr>
     
     )
