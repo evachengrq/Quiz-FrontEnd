@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header'
-import Product from './Components/Product'
 import Footer from './Components/Footer';
+import Products from './Components/Products';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Products />
       <Footer />
     </div>
   );
